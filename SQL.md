@@ -42,3 +42,34 @@ Ex- Oracle, Mysql, Postsql etc.
 ### 4. DRL(Data Retrieval Language)
 >DRL language is an SQL Language which helps us to retrieve data from the database. Example , SELECT commands.
 
+# Querries
+
+1. Create Database
+ ```sql
+ CREATE DATABASE database_name;
+ ```
+ 2. Drop Database
+```sql
+DROP database_name;
+```
+3. Create Table with multiple columns
+```sql
+CREATE TABLE table_name(column_name datatype(size), column_name datatype(size), column_name datatype(size), column_name datatype(size), column_name datatype(size) ,primary key(column_name));
+```
+4 Describe table 
+```sql
+DESC table_name;
+```
+5. Add Column in table
+```sql
+ALTER TABLE table_name
+ADD column_name datatype(size) NOT NULL;
+```
+
+6. Add multiple Column in table
+```sql
+ALTER TABLE table_name
+ADD column_name datatype(size),
+ADD column_name datatype(size)
+;
+```
