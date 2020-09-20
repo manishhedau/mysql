@@ -3,11 +3,12 @@
 Important Terminologies
 
 1. What is Data?
-`Collection of unprocessed is known as data.`
+
+```Collection of unprocessed is known as data.```
 
 2. What is database?
 
-`Collection of related data is known as a database.`
+```Collection of related data is known as a database.```
 
 3. What is DBMS(Database Management System)?
 
