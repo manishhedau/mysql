@@ -55,9 +55,11 @@ DROP database_name;
 3. Create Table with multiple columns
 ```sql
 CREATE TABLE table_name(column_name datatype(size),
- column_name datatype(size), column_name datatype(size), 
- column_name datatype(size), column_name datatype(size),
- primary key(column_name));
+                        column_name datatype(size), 
+                        column_name datatype(size), 
+                        column_name datatype(size), 
+                        column_name datatype(size),
+                        primary key(column_name));
 ```
 4 Describe table 
 ```sql
