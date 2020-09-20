@@ -34,6 +34,11 @@ Ex- Oracle, Mysql, Postsql etc.
 
 >DCL sublanguage is going to help us to do so.
 #### 1. Commit Statement :
-> 
+> To make the change permanent for the current transaction.
 
+#### 2. Rollback Statement :
+> To undo all the changes for current transactions
+
+### 4. DRL(Data Retrieval Language)
+>DRL language is an SQL Language which helps us to retrieve data from the database. Example , SELECT commands.
 
