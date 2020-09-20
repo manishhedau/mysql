@@ -78,3 +78,23 @@ ADD column_name datatype(size),
 ADD column_name datatype(size)
 ;
 ```
+7. Modify the column in table
+```sql
+ALTER TABLE table_name 
+MODIFY column_name datatype(size) NOT NULL;
+```
+
+8. Modify Multiple column in table
+```sql
+ALTER TABLE table_name 
+MODIFY Column_name datatype(size) NOT NULL,
+MODIFY Column_name datatype(size) NULL AFTER make;
+-- we can specify after which column we have to shift that column by using ALTER keyword 
+```
+
+9. Rename column in table
+```sql
+-- we can rename the column in table
+ALTER TABLE vehicles 
+CHANGE COLUMN old_column_name New_column_name datatype(size) NOT NULL;
+```
